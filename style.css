@@ -1,0 +1,15 @@
+@media (min-width: 576px) {
+  .container {
+    display: flex;
+  }
+}
+.box {
+  height: 200px;
+  flex: 1;
+  background-color: slategrey;
+  border: 2px solid black;
+  margin: 5px;
+}
+.container div:nth-child(odd) {
+  background-color: crimson;
+}
